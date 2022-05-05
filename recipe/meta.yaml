@@ -1,5 +1,5 @@
 {% set name = "xarray-datatree" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xarray-datatree-{{ version }}.tar.gz
-  sha256: e8308b55591f1f68749e94d7fff2a544eb362e0d149660c194b3dbbf5888a628
+  sha256: 21b05d2887b305c78411871328437e5cccd41ee07d16bda024b758e72e39554b
 
 build:
   noarch: python
