@@ -1,5 +1,5 @@
 {% set name = "xarray-datatree" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xarray-datatree-{{ version }}.tar.gz
-  sha256: 21b05d2887b305c78411871328437e5cccd41ee07d16bda024b758e72e39554b
+  sha256: 8c93687e765dbbfaae01d1cf3dafae2a6f22f7b90e34bc0989cb425710a1a684
 
 build:
   noarch: python
@@ -21,7 +21,6 @@ requirements:
     - setuptools >=42
     - setuptools-scm >=3.4
   run:
-    - anytree >=2.8.0
     - python >=3.8
     - xarray >=0.20.2
 
@@ -38,7 +37,11 @@ about:
   summary: Hierarchical tree-like data structures for xarray
   license: Apache-2.0
   license_file: LICENSE
+  doc_url: https://xarray-datatree.readthedocs.io/en/latest
+  dev_url: https://github.com/xarray-contrib/datatree
+
 
 extra:
   recipe-maintainers:
     - andersy005
+    - TomNicholas

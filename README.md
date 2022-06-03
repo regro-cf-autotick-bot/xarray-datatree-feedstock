@@ -9,6 +9,10 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xarray-datatree
 
 Summary: Hierarchical tree-like data structures for xarray
 
+Development: https://github.com/xarray-contrib/datatree
+
+Documentation: https://xarray-datatree.readthedocs.io/en/latest
+
 Current build status
 ====================
 
@@ -143,5 +147,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@TomNicholas](https://github.com/TomNicholas/)
 * [@andersy005](https://github.com/andersy005/)
 
