@@ -1,11 +1,11 @@
-About xarray-datatree
-=====================
+About xarray-datatree-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xarray-datatree-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/xarray-contrib/datatree
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xarray-datatree-feedstock/blob/main/LICENSE.txt)
 
 Summary: Hierarchical tree-like data structures for xarray
 
